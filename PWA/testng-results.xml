@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="14" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-23T18:47:41 CST" name="Suite1" finished-at="2020-12-23T18:48:12 CST" duration-ms="31077">
+    <groups>
+    </groups>
+    <test started-at="2020-12-23T18:47:41 CST" name="test1" finished-at="2020-12-23T18:48:12 CST" duration-ms="31077">
+      <class name="tests.HomePageTests">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:tests.HomePageTests@26425897]" started-at="2020-12-23T18:47:41 CST" name="startUp" finished-at="2020-12-23T18:47:44 CST" duration-ms="3536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method is-config="true" signature="closePopup()[pri:0, instance:tests.HomePageTests@26425897]" started-at="2020-12-23T18:47:44 CST" name="closePopup" finished-at="2020-12-23T18:47:47 CST" duration-ms="2660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopup -->
+        <test-method signature="HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140()[pri:0, instance:tests.HomePageTests@26425897]" started-at="2020-12-23T18:47:47 CST" name="HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140" finished-at="2020-12-23T18:47:54 CST" duration-ms="6695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@26425897]" started-at="2020-12-23T18:47:54 CST" name="tearDown" finished-at="2020-12-23T18:47:56 CST" duration-ms="2710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:tests.HomePageTests@26425897]" started-at="2020-12-23T18:47:56 CST" name="startUp" finished-at="2020-12-23T18:48:00 CST" duration-ms="3378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method is-config="true" signature="closePopup()[pri:0, instance:tests.HomePageTests@26425897]" started-at="2020-12-23T18:48:00 CST" name="closePopup" finished-at="2020-12-23T18:48:02 CST" duration-ms="2654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopup -->
+        <test-method signature="HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140()[pri:0, instance:tests.HomePageTests@26425897]" started-at="2020-12-23T18:48:02 CST" name="HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140" finished-at="2020-12-23T18:48:09 CST" duration-ms="6743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@26425897]" started-at="2020-12-23T18:48:09 CST" name="tearDown" finished-at="2020-12-23T18:48:12 CST" duration-ms="2681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTests -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

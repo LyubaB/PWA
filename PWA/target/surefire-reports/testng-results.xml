@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="14" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-27T16:24:50 CST" name="testngFirefox" finished-at="2020-12-27T16:25:27 CST" duration-ms="37253">
+    <groups>
+    </groups>
+    <test started-at="2020-12-27T16:24:50 CST" name="test1" finished-at="2020-12-27T16:25:27 CST" duration-ms="37253">
+      <class name="tests.HomePageTests">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.HomePageTests@16eccb2e]" started-at="2020-12-27T16:24:50 CST" name="startUp" finished-at="2020-12-27T16:24:53 CST" duration-ms="3624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method is-config="true" signature="closePopup()[pri:0, instance:tests.HomePageTests@16eccb2e]" started-at="2020-12-27T16:24:53 CST" name="closePopup" finished-at="2020-12-27T16:24:59 CST" duration-ms="5485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopup -->
+        <test-method signature="HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140()[pri:0, instance:tests.HomePageTests@16eccb2e]" started-at="2020-12-27T16:24:59 CST" name="HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140" finished-at="2020-12-27T16:25:04 CST" duration-ms="4944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@16eccb2e]" started-at="2020-12-27T16:25:04 CST" name="tearDown" finished-at="2020-12-27T16:25:08 CST" duration-ms="3941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.HomePageTests@16eccb2e]" started-at="2020-12-27T16:25:08 CST" name="startUp" finished-at="2020-12-27T16:25:13 CST" duration-ms="4732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method is-config="true" signature="closePopup()[pri:0, instance:tests.HomePageTests@16eccb2e]" started-at="2020-12-27T16:25:13 CST" name="closePopup" finished-at="2020-12-27T16:25:18 CST" duration-ms="5586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopup -->
+        <test-method signature="HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140()[pri:0, instance:tests.HomePageTests@16eccb2e]" started-at="2020-12-27T16:25:18 CST" name="HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140" finished-at="2020-12-27T16:25:24 CST" duration-ms="5435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTests@16eccb2e]" started-at="2020-12-27T16:25:24 CST" name="tearDown" finished-at="2020-12-27T16:25:27 CST" duration-ms="3480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTests -->
+    </test> <!-- test1 -->
+  </suite> <!-- testngFirefox -->
+</testng-results>
