@@ -14,8 +14,8 @@ public class HomePageTests extends BaseTestForHomePage {
     @BeforeMethod
     public void closePopup() {
         driver.get("https://shoebacca.com");
-        HomePage homePage = new HomePage(driver);
-        homePage.closeEmailPopup();
+//        HomePage homePage = new HomePage(driver);
+//        homePage.closeEmailPopup();
     }
     @Test(retryAnalyzer = RetryAnalyzer.class)
     public void HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140() {

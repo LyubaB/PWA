@@ -16,20 +16,22 @@ public class BaseTestForHomePage {
      WebDriver driver;
      @Parameters({"browser"})
      @BeforeMethod
-//     public void startUp(){
-//     driver = BrowserFabric.getDriver(BrowserType.CHROME);
-     public void startUp(String browserName){
+     public void startUp() {
+          driver = BrowserFabric.getDriver(BrowserType.CHROME);
+     }
+//     public void startUp(String browser){
 //          BrowserType browserType = browser.equals("CHROME") ? BrowserType.CHROME : BrowserType.FIREFOX;
 //          driver = BrowserFabric.getDriver(browserType);
-          BrowserType type;
-          switch (browserName) {
-               case "CHROME": type = BrowserType.CHROME;
-               case "EDGE": type = BrowserType.EDGE;
-               case "OPERA": type = BrowserType.OPERA;
-               default: type = BrowserType.FIREFOX;
-                    driver = BrowserFabric.getDriver(type);
-}
-}
+//          public void startUp(String browserName){
+//          BrowserType type;
+//          switch (browserName) {
+//               case "CHROME": type = BrowserType.CHROME;
+//               case "EDGE": type = BrowserType.EDGE;
+//               case "OPERA": type = BrowserType.OPERA;
+//               default: type = BrowserType.FIREFOX;
+//                    driver = BrowserFabric.getDriver(type);
+//}
+//}
 
      @AfterMethod
      public void tearDown() throws InterruptedException{
