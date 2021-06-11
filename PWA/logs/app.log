@@ -1,19 +1,56 @@
-2020-12-29 09:22:26,938 INFO p.BasePage [main] HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140 - STARTED
-2020-12-29 09:22:26,940 WARN p.BasePage [main] HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140 - SKIPPED
-2020-12-29 09:22:26,941 INFO p.BasePage [main] HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140 - STARTED
-2020-12-29 09:22:26,941 WARN p.BasePage [main] HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140 - SKIPPED
-2020-12-29 09:25:58,061 INFO p.BasePage [main] HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140 - STARTED
-2020-12-29 09:25:58,064 WARN p.BasePage [main] HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140 - SKIPPED
-2020-12-29 09:25:58,065 INFO p.BasePage [main] HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140 - STARTED
-2020-12-29 09:25:58,066 WARN p.BasePage [main] HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140 - SKIPPED
-2020-12-29 09:27:57,871 INFO p.BasePage [main] HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140 - STARTED
-2020-12-29 09:27:57,874 WARN p.BasePage [main] HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140 - SKIPPED
-2020-12-29 09:27:57,875 INFO p.BasePage [main] HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140 - STARTED
-2020-12-29 09:27:57,876 WARN p.BasePage [main] HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140 - SKIPPED
-2020-12-29 12:10:55,810 INFO p.HomePage [main] Suggestions for search are shown
-2020-12-29 12:10:55,833 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Suggestions
-2020-12-29 12:10:55,881 INFO p.HomePage [main] Popular Brands for search are shown
-2020-12-29 12:10:55,893 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Popular Brands
-2020-12-29 12:10:55,939 INFO p.HomePage [main] Top Suggestions for search are shown
-2020-12-29 12:10:57,973 INFO p.HomePage [main] Sixth line for Suggestions search exists
-2020-12-29 12:11:00,001 INFO p.HomePage [main] Sixth line for Popular Brands search exists
+2021-06-09 12:46:15,683 INFO p.HomePage [main] Suggestions for search are shown
+2021-06-09 12:46:15,710 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Suggestions
+2021-06-09 12:46:15,765 INFO p.HomePage [main] Popular Brands for search are shown
+2021-06-09 12:46:15,781 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Popular Brands
+2021-06-09 12:46:15,840 INFO p.HomePage [main] Top Suggestions for search are shown
+2021-06-09 12:46:17,886 INFO p.HomePage [main] Sixth line for Suggestions search exists
+2021-06-09 12:46:19,932 INFO p.HomePage [main] Sixth line for Popular Brands search exists
+2021-06-09 12:46:28,315 INFO p.HomePage [main] Suggestions for search are shown
+2021-06-09 12:46:28,326 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Suggestions
+2021-06-09 12:46:28,369 INFO p.HomePage [main] Popular Brands for search are shown
+2021-06-09 12:46:28,380 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Popular Brands
+2021-06-09 12:46:28,421 INFO p.HomePage [main] Top Suggestions for search are shown
+2021-06-09 12:46:30,454 INFO p.HomePage [main] Sixth line for Suggestions search exists
+2021-06-09 12:46:32,501 INFO p.HomePage [main] Sixth line for Popular Brands search exists
+2021-06-09 12:46:40,381 INFO p.HomePage [main] Suggestions for search are shown
+2021-06-09 12:46:40,394 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Suggestions
+2021-06-09 12:46:40,439 INFO p.HomePage [main] Popular Brands for search are shown
+2021-06-09 12:46:40,453 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Popular Brands
+2021-06-09 12:46:40,497 INFO p.HomePage [main] Top Suggestions for search are shown
+2021-06-09 12:46:42,528 INFO p.HomePage [main] Sixth line for Suggestions search exists
+2021-06-09 12:46:44,559 INFO p.HomePage [main] Sixth line for Popular Brands search exists
+2021-06-09 12:46:52,406 INFO p.HomePage [main] Suggestions for search are shown
+2021-06-09 12:46:52,421 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Suggestions
+2021-06-09 12:46:52,472 INFO p.HomePage [main] Popular Brands for search are shown
+2021-06-09 12:46:52,486 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Popular Brands
+2021-06-09 12:46:52,539 INFO p.HomePage [main] Top Suggestions for search are shown
+2021-06-09 12:46:54,579 INFO p.HomePage [main] Sixth line for Suggestions search exists
+2021-06-09 12:46:56,597 ERROR p.HomePage [main] Sixth line for Popular Brands search doesn't exist
+2021-06-09 12:49:35,962 INFO p.HomePage [main] Suggestions for search are shown
+2021-06-09 12:49:35,980 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Suggestions
+2021-06-09 12:49:36,031 INFO p.HomePage [main] Popular Brands for search are shown
+2021-06-09 12:49:36,044 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Popular Brands
+2021-06-09 12:49:36,090 INFO p.HomePage [main] Top Suggestions for search are shown
+2021-06-09 12:49:38,116 INFO p.HomePage [main] Sixth line for Suggestions search exists
+2021-06-09 12:49:40,152 INFO p.HomePage [main] Sixth line for Popular Brands search exists
+2021-06-09 14:32:45,921 INFO p.HomePage [main] Expecting that letters at the end of URL is the same as letters at search bar
+2021-06-09 14:32:45,979 INFO p.HomePage [main] Letters at breadcrumbs is the same as letters at search bar
+2021-06-09 14:32:45,996 INFO p.HomePage [main] Letters at breadcrumbs is the same as letters at search bar
+2021-06-09 14:43:16,220 INFO p.BasePage [main] HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140 - STARTED
+2021-06-09 14:43:17,280 INFO p.HomePage [main] Suggestions for search are shown
+2021-06-09 14:43:17,299 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Suggestions
+2021-06-09 14:43:17,364 INFO p.HomePage [main] Popular Brands for search are shown
+2021-06-09 14:43:17,379 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Popular Brands
+2021-06-09 14:43:17,427 INFO p.HomePage [main] Top Suggestions for search are shown
+2021-06-09 14:43:19,463 INFO p.HomePage [main] Sixth line for Suggestions search exists
+2021-06-09 14:43:21,511 INFO p.HomePage [main] Sixth line for Popular Brands search exists
+2021-06-09 14:43:21,513 INFO p.BasePage [main] HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140 - COMPLETED SUCCESSFULLY
+2021-06-09 14:43:29,055 INFO p.BasePage [main] HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140 - STARTED
+2021-06-09 14:43:29,910 INFO p.HomePage [main] Suggestions for search are shown
+2021-06-09 14:43:29,923 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Suggestions
+2021-06-09 14:43:29,965 INFO p.HomePage [main] Popular Brands for search are shown
+2021-06-09 14:43:29,976 INFO p.HomePage [main] Expecting to see bold alphabets in 6 lines for Popular Brands
+2021-06-09 14:43:30,015 INFO p.HomePage [main] Top Suggestions for search are shown
+2021-06-09 14:43:32,045 INFO p.HomePage [main] Sixth line for Suggestions search exists
+2021-06-09 14:43:34,080 INFO p.HomePage [main] Sixth line for Popular Brands search exists
+2021-06-09 14:43:34,080 INFO p.BasePage [main] HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140 - COMPLETED SUCCESSFULLY

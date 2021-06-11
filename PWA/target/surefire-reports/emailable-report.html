@@ -8,12 +8,102 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">testngFirefox</th></tr>
-<tr><td><a href="#t0">test1</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">37,253</td><td></td><td></td></tr>
+<tr><th colspan="8">testngChrome</th></tr>
+<tr><td><a href="#t0">test1</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">3</td><td class="num attn">1</td><td class="num">66,259</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">testngFirefox</th></tr></tbody><tbody id="t0"><tr><th colspan="4">test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">tests.HomePageTests</td><td><a href="#m0">HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140</a></td><td rowspan="1">1609107899457</td><td rowspan="1">4944</td></tr><tr class="passedeven"><td><a href="#m1">HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140</a></td><td rowspan="1">1609107918662</td><td rowspan="1">5435</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">testngChrome</th></tr></tbody><tbody id="t0"><tr><th colspan="4">test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.HomePageTests</td><td><a href="#m0">HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140</a></td><td rowspan="1">1612300596426</td><td rowspan="1">2351</td></tr><tr><th colspan="4">test1 &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="3">tests.HomePageTests</td><td><a href="#m1">HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140</a></td><td rowspan="3">1612300583694</td><td rowspan="3">2332</td></tr><tr class="retriedeven"><td><a href="#m2">HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140</a></td></tr><tr class="retriedeven"><td><a href="#m3">HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140</a></td></tr><tr><th colspan="4">test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.HomePageTests</td><td><a href="#m4">HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140</a></td><td rowspan="1">1612300540130</td><td rowspan="1">7250</td></tr></tbody>
 </table>
-<h2>test1</h2><h3 id="m0">tests.HomePageTests#HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.HomePageTests#HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>test1</h2><h3 id="m0">tests.HomePageTests#HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;search_query&apos;]&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SB-0888-LT&apos;, ip: &apos;192.168.86.198&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\lyuba.b\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58287}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ec2dc5ae47378f35b6d776e371e44175
+*** Element info: {Using=name, value=search_query}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.HomePage.getSearchBar(HomePage.java:31)
+	at pages.HomePage.useSearchQueryForSmallerScreen1(HomePage.java:99)
+	at tests.HomePageTests.HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140(HomePageTests.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.HomePageTests#HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;search_query&apos;]&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SB-0888-LT&apos;, ip: &apos;192.168.86.198&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\lyuba.b\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3721b202b81302cf26856dea580dcb14
+*** Element info: {Using=name, value=search_query}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.HomePage.getSearchBar(HomePage.java:31)
+	at pages.HomePage.useSearchQueryForSmallerScreen1(HomePage.java:99)
+	at tests.HomePageTests.HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140(HomePageTests.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.HomePageTests#HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;text&quot; aria-label=&quot;auto Complete Search&quot; autocomplete=&quot;off&quot; aria-autocomplete=&quot;list&quot; aria-controls=&quot;react-autowhatever-1&quot; placeholder=&quot;Search&quot; class=&quot;textInput-input-2jT&quot; name=&quot;search_query&quot; value=&quot;&quot;&gt; is not clickable at point (544, 26). Other element would receive the click: &lt;iframe referrerpolicy=&quot;origin&quot; id=&quot;attentive_creative&quot; title=&quot;Sign Up via Text for Offers&quot; src=&quot;https://shoebacca.attn.tv/creative?v=1.2.006&amp;amp;r=&amp;amp;w=1038&amp;amp;h=530&amp;amp;id=70111adcbfdd4a54990173fe38568bfc&amp;amp;l=https%3A%2F%2Fwww.shoebacca.com%2F&amp;amp;ss_ref=ORGANIC&amp;amp;t=n&amp;amp;pv=1&quot; style=&quot;width: 100%; height: 100%; position: fixed; bottom: 0px; opacity: 1; transition: opacity 500ms ease 0s; border: 0px; overflow: hidden; left: 0px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=87.0.4280.88)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SB-0888-LT&apos;, ip: &apos;192.168.86.198&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\lyuba.b\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ef18aa0c555266985a76f92aa5371fac
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pages.HomePage.useSearchQueryForSmallerScreen1(HomePage.java:100)
+	at tests.HomePageTests.HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140(HomePageTests.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.HomePageTests#HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;search_query&apos;]&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SB-0888-LT&apos;, ip: &apos;192.168.86.198&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\lyuba.b\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7eb3a5bcb5b57cd03acf23da14626882
+*** Element info: {Using=name, value=search_query}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.HomePage.getSearchBar(HomePage.java:31)
+	at pages.HomePage.useSearchQueryForSmallerScreen1(HomePage.java:99)
+	at tests.HomePageTests.HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140(HomePageTests.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.HomePageTests#HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

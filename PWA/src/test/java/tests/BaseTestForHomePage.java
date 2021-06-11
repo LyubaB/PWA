@@ -33,6 +33,7 @@ public class BaseTestForHomePage {
 //}
 //}
 
+
      @AfterMethod
      public void tearDown() throws InterruptedException{
 //     public void tearDown(ITestResult iTestResult) throws InterruptedException{

@@ -8,13 +8,11 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 public class BasePage {
     protected WebDriver driver;
     protected FluentWait<WebDriver> fluentWait;
     protected WebDriverWait wait;
-
     public BasePage (WebDriver driver){
         this.driver = driver;
         fluentWait = new FluentWait<WebDriver>(driver)
@@ -24,7 +22,7 @@ public class BasePage {
                 .ignoring(StaleElementReferenceException.class)
                 .ignoring(ElementClickInterceptedException.class)
                 .withMessage("Find Exception");
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, 20);
 
     }
 }

@@ -12,7 +12,7 @@
           <include name="tearDown"/>
           <include name="closePopup"/>
           <include name="startUp"/>
-          <include name="HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140"/>
+          <include name="HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140"/>
         </methods>
       </class> <!-- tests.HomePageTests -->
     </classes>

@@ -8,14 +8,13 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.HomePage;
-import pages.WomensShoesPage;
 
 public class HomePageTests extends BaseTestForHomePage {
     @BeforeMethod
     public void closePopup() {
         driver.get("https://shoebacca.com");
-//        HomePage homePage = new HomePage(driver);
-//        homePage.closeEmailPopup();
+        HomePage homePage = new HomePage(driver);
+        homePage.closeEmailPopup();
     }
     @Test(retryAnalyzer = RetryAnalyzer.class)
     public void HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140() {
@@ -50,7 +49,9 @@ public class HomePageTests extends BaseTestForHomePage {
         HomePage homePage = new HomePage(driver);
         driver.manage().window().maximize();
         homePage.useSearchQueryForBiggerScreen2("spr");
+        Assert.assertTrue(homePage.suggestionsExist());
         Assert.assertTrue(homePage.boldAlphabetsForSuggestionsExist2());
+        Assert.assertTrue(homePage.popularBrandsExist());
         Assert.assertTrue(homePage.boldAlphabetsForPopularBrandsExist2());
         Assert.assertFalse(homePage.sixthLineForSuggestionsSearchExist());
         Assert.assertFalse(homePage.sixthLineForPopularBrandsSearchExist());
@@ -62,7 +63,9 @@ public class HomePageTests extends BaseTestForHomePage {
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setCapability("screen-resolution", "1100x600");
         homePage.useSearchQueryForSmallerScreen2("spr");
+        Assert.assertTrue(homePage.suggestionsExist());
         Assert.assertTrue(homePage.boldAlphabetsForSuggestionsExist2());
+        Assert.assertTrue(homePage.popularBrandsExist());
         Assert.assertTrue(homePage.boldAlphabetsForPopularBrandsExist2());
         Assert.assertFalse(homePage.sixthLineForSuggestionsSearchExist());
         Assert.assertFalse(homePage.sixthLineForPopularBrandsSearchExist());
@@ -141,4 +144,10 @@ public class HomePageTests extends BaseTestForHomePage {
         Assert.assertEquals(query, search3);
         Assert.assertTrue(homePage.checkQuery(search3));
     }
+    @Test
+    public void HomePage_Logo_C141() {
+        HomePage homePage = new HomePage(driver);
+        Assert.assertTrue(homePage.logoExist());
+        Assert.assertTrue(homePage.logoLocation());
+        }
 }
