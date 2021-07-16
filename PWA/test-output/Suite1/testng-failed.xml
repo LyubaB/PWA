@@ -7,14 +7,14 @@
   </listeners>
   <test thread-count="5" name="test1(failed)">
     <classes>
-      <class name="tests.HomePageTests">
+      <class name="tests.SearchBarTests">
         <methods>
           <include name="tearDown"/>
           <include name="closePopup"/>
           <include name="startUp"/>
           <include name="HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140"/>
         </methods>
-      </class> <!-- tests.HomePageTests -->
+      </class> <!-- tests.SearchBarTests -->
     </classes>
   </test> <!-- test1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

@@ -9,10 +9,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class BaseTestForHomePage {
+public class BaseTest {
      WebDriver driver;
      @Parameters({"browser"})
      @BeforeMethod

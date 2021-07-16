@@ -8,7 +8,7 @@
     <parameter name="browser" value="CHROME"/>
     <test name = "test1">
         <classes>
-            <class name = "tests.PopupMessageTests">
+            <class name = "tests.EmailPopupMessageTests">
                 <methods>
                     <exclude name="HomePage_EmailPopupAppears_C138"/>
                     <exclude name="HomePage_EmailPopupAppears_EmailPopupClosed1_C138"/>
@@ -16,7 +16,7 @@
                     <exclude name="HomePage_EmailPopupAppears_EmailPopupClosed3_C139"/>
                 </methods>
             </class>
-            <class name="tests.HomePageTests">
+            <class name="tests.SearchBarTests">
                 <methods>
                     <include name="HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140"/>
                     <include name="HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140"/>
