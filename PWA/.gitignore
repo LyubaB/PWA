@@ -1,0 +1,23 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+#browser drivers
+chromedriver*.*
+geckodriver*.*
+msedgedriver*.*
+operadriver*.*
+#Log file
+*.log
+
+*.png
+*.html
+*.iml
+/test-output/
+/junitreports/
+/old/
+/logs/
+/screenshots/
+/target/
+/.idea
+
+
