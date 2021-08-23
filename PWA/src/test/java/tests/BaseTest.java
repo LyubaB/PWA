@@ -19,11 +19,12 @@ public class BaseTest {
      @BeforeMethod
      public void startUp() {
           driver = BrowserFabric.getDriver(BrowserType.CHROME);
+//          driver = BrowserFabric.getDriver(BrowserType.FIREFOX);
      }
-//     public void startUp(String browser){
+//     public void startUp(String browser) {
 //          BrowserType browserType = browser.equals("CHROME") ? BrowserType.CHROME : BrowserType.FIREFOX;
 //          driver = BrowserFabric.getDriver(browserType);
-
+//     }
 //          public void startUp(String browserName){
 //          BrowserType type;
 //          switch (browserName) {

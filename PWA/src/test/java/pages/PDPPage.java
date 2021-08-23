@@ -4,7 +4,6 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -50,12 +49,6 @@ public class PDPPage extends BasePage {
     }
 
     public void addProductToCart() {
-//        new WebDriverWait(driver, 20)
-//                .ignoring(StaleElementReferenceException.class)
-//                .until((WebDriver d) -> {
-//                    d.findElement(By.xpath("(//*[@class='ais-InfiniteHits-item'])[2]")).click();
-//                    return true;
-//                });
         chooseSize();
         chooseWidth();
         Actions actions = new Actions(driver);

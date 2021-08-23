@@ -15,11 +15,11 @@ public class SizeFilterTests extends BaseTest {
     Logger logger = LogManager.getLogger(MiniCartTests.class);
     @BeforeMethod
     public void openWomensShoesPage() {
-        driver.get("https://shoebacca.com/womens-shoes.html");
+//        driver.get("https://shoebacca.com/womens-shoes.html");
 //        driver.get("https://shoebacca.com/mens-shoes.html");
 //        driver.get("https://shoebacca.com/kids-shoes.html");
-//        WomensShoesPage womensShoesPage = new WomensShoesPage(driver);
-//        womensShoesPage.openSTG();
+        WomensShoesPage womensShoesPage = new WomensShoesPage(driver);
+        womensShoesPage.openSTG();
         EmailPopupWindow emailPopupWindow = new EmailPopupWindow(driver);
         emailPopupWindow.closeEmailPopup();
     }
@@ -39,6 +39,6 @@ public class SizeFilterTests extends BaseTest {
     public void PLP_SizesWidthsFiltering_ProductAppearsInCorrectSizes(){
         PLPPage plpPage = new PLPPage(driver);
         driver.manage().window().maximize();
-        Assert.assertTrue(plpPage.sizeWidthCheck());
+        Assert.assertTrue(plpPage.finalSizeWidthCheck());
     }
 }

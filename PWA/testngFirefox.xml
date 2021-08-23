@@ -10,16 +10,16 @@
         <classes>
             <class name = "tests.EmailPopupMessageTests">
                 <methods>
-                    <exclude name="HomePage_EmailPopupAppears_C138"/>
-                    <exclude name="HomePage_EmailPopupAppears_EmailPopupClosed1_C138"/>
-                    <exclude name="HomePage_EmailPopupAppears_EmailPopupClosed2_C138"/>
-                    <exclude name="HomePage_EmailPopupAppears_EmailPopupClosed3_C139"/>
+                    <include name="EmailPopupWindow_EmailPopupAppears_C138"/>
+                    <include name="EmailPopupWindow_EmailPopupAppears_EmailPopupClosed1_C138"/>
+                    <include name="EmailPopupWindow_EmailPopupAppears_EmailPopupClosed2_C138"/>
+                    <include name="EmailPopupWindow_EmailPopupAppears_EmailPopupClosed3_C139"/>
                 </methods>
             </class>
             <class name="tests.SearchBarTests">
                 <methods>
-                    <include name="HomePage_SearchBarForBiggerScreen_ProvidesSuggestion_C140"/>
-                    <include name="HomePage_SearchBarForSmallerScreen_ProvidesSuggestion_C140"/>
+                    <include name="Header_SearchBarForBiggerScreen_ProvidesSuggestion_C140"/>
+                    <include name="Header_SearchBarForSmallerScreen_ProvidesSuggestion_C140"/>
                 </methods>
             </class>
         </classes>

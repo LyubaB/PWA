@@ -44,8 +44,8 @@ public class CheckoutPage extends BasePage {
     }
 
     private WebElement getSaveContinueButton() {
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("[class='button-root_highPriority-3-H']")));
-        return driver.findElement(By.cssSelector("[class='button-root_highPriority-3-H']"));
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='shippingMethod-formButtons-tac']/button")));
+        return driver.findElement(By.xpath("//*[@class='shippingMethod-formButtons-tac']/button"));
     }
 
     private WebElement getIframeBraintree() {

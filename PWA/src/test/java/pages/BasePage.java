@@ -973,17 +973,4 @@ public class BasePage {
         getSeeAllBrandsbutton().click();
         return new BrandsPage(driver);
     }
-
-    private WebElement getSupportIcon() {
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("[class='cartTrigger-trigger-1hC']")));
-        return driver.findElement(By.cssSelector("[class='cartTrigger-trigger-1hC']"));
-    }
-    public boolean supportIcontExist() {
-        var list = driver.findElements(By.cssSelector("[class='icon-cart cartTrigger-cartIcon-oTF']"));
-        return list.size() == 1;
-    }
-
-    public boolean supportIcontLocation() {
-        return getMiniCartIcon().getLocation().getX() > 900 && getMiniCartIcon().getLocation().getY() < 105;
-    }
 }
